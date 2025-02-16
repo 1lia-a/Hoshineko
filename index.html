@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hashineko Dev</title>
+    <link rel="icon" href="imgs/Icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kaushan+Script&family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header__logo">
+        <a href="">
+          <img
+            class="header__img"
+            src="imgs/logo.png"
+            alt="Logo"
+            class="header__logo-img"
+          />
+        </a>
+      </h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header_li">
+            <a class="header_a" href="#Home">Home</a>
+          </li>
+          <li class="header_li">
+            <a class="header_a" href="#Projects">Projects</a>
+          </li>
+          <li class="header_li">
+            <a class="header_a" href="#AboutMe">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <div class="first-container" id="Home">
+      <h2 class="first-container__title">Tech Otaku Save the World!</h2>
+      <img
+        src="imgs/avatar.png"
+        alt="AvatarProfile"
+        class="image-avatar_profile"
+      />
+      <nav class="first-container__nav">
+        <li class="first-container_li">
+          <a
+            class="first-container_a"
+            href="https://www.roblox.com/users/3993775002/profile"
+            target="_blank"
+          >
+            <img
+              class="first-container_img"
+              src="imgs/roblox.svg"
+              alt="Roblox Profile"
+            />
+          </a>
+        </li>
+
+        <li class="first-container_li">
+          <a
+            class="first-container_a"
+            href="https://www.youtube.com/@HoshinekoGames"
+            target="_blank"
+          >
+            <img
+              class="first-container_img"
+              src="/imgs/youtube.png"
+              alt="Youtube Channel"
+            />
+          </a>
+        </li>
+      </nav>
+      <p class="first-container__p1">
+        Hello, I`m lead developer of Hoshineko! ヾ(•ω•`)o
+      </p>
+      <p class="first-container__p2">
+        Experienced Roblox game developer with 2+ years of game development. I
+        like to make cute things in anime style, create worlds and play games.
+        \/ᐠ｡ꞈ｡ᐟ\
+      </p>
+    </div>
+
+    <hr />
+
+    <!-- ==  Project Slider  == -->
+
+    <div class="second-container" id="Projects">
+      <h2 class="slider-title">Projects</h2>
+      <div class="slider-container">
+        <div class="slider">
+          <a
+            href="https://www.roblox.com/games/17778489839/The-Floor-is-Lava"
+            target="_blank"
+            class="slide"
+          >
+            <img src="imgs/slide_1.jpg" alt="Image 1" />
+          </a>
+          <a
+            href="https://www.roblox.com/games/122529117176066/Equalizers"
+            target="_blank"
+            class="slide"
+          >
+            <img src="imgs/slide_2.jpg" alt="Image 2" />
+          </a>
+          <a
+            href="https://www.roblox.com/games/90010987663284/Football-Game"
+            target="_blank"
+            class="slide"
+          >
+            <img src="imgs/slide_3.jpg" alt="Image 3" />
+          </a>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+      <div class="dots-container">
+        <span class="dot" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+    </div>
+    <script src="Slider.js"></script>
+
+    <hr />
+
+    <!-- ==  About Me  == -->
+
+    <div class="third-container" id="AboutMe">
+      <h2 class="About-title">About Me</h2>
+      <div class="third-container_TextBlock">
+        <div class="third-container_ImgBlock">
+          <img class="third-container__img" src="imgs/Neko.png" alt="Avatar" />
+        </div>
+        <div class="third-container__Text">
+          <p class="third-container__p">
+            My name is Ilia. I have over 10 years of experience in games,
+            playing them since childhood I dreamed of creating my own worlds and
+            ideas that other players would play. I really love anime and want to
+            make my projects in a kawaii anime style. The world is quite cruel
+            and gray, my main dream is to create worlds that will be much more
+            colorful than the real ones.
+          </p>
+          <p class="third-container__p">
+            Im independent solo indie developer in my studio. I trying to handle
+            all directions in the game development industry like modeling,
+            designing, programming and more, both Roblox and outside of it.
+          </p>
+          <p class="third-container__p">
+            Important! I am not a developer for hire, if you are considering me
+            as a potential employee, my answer will most likely be negative.
+            However, if for some reason you still want to contact with me, my
+            contact information is listed in the footer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__Text">
+        <p class="footer__p">2025 Hoshineko Games. Designed by 1lia_a.</p>
+      </div>
+      <div class="footer__Contacts">
+        <p class="footer__p">Contacts -></p>
+        <p class="footer__p">Discord: 1lia</p>
+      </div>
+    </footer>
+  </body>
+</html>
