@@ -404,8 +404,8 @@ header {
 .third-container_ImgBlock {
   display: flex;
   justify-content: center;
-  max-width: 400px;
-  padding: 1rem 0;
+  max-width: 200px;
+  padding: 1rem 2rem;
 }
 
 .third-container__img {
@@ -427,7 +427,7 @@ header {
     margin: 5rem 10rem;
   }
   .third-container__img {
-    width: 400px;
+    width: 200px;
   }
 }
 
@@ -444,7 +444,7 @@ header {
     align-items: center;
   }
   .third-container__img {
-    width: 300px;
+    width: 200px;
   }
   .third-container_ImgBlock {
     padding: 0;
